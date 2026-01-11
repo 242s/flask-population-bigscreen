@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-image: url('../static/image/back.jpeg');
+    -webkit-background-size: cover; /* 针对webkit内核浏览器，如 Chrome、Safari 等 */
+    -moz-background-size: cover; /* 针对Firefox浏览器 */
+    -o-background-size: cover; /* 针对 Opera 浏览器 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#title{
+	position: absolute;
+	width: 70%;
+	height: 10%;
+	top:0;
+	left: 0%;
+	/* background: #666666; */
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 20pt;
+}
+#tim{
+	position: absolute;
+	width: 30%;
+	height: 10%;
+	top:0;
+	right: 0;
+	/* background: gray;*/	
+}
+#c1{
+	position: absolute;
+	width: 40%;
+	height: 30%;
+	top:10%;
+	left: 30%;
+	/* background: #777777;*/
+}
+#c2{
+	position: absolute;
+	width: 40%;
+	height: 60%;
+	top:40%;
+	left: 30%;
+	/* background: #999999;*/
+}
+#l1{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top:10%;
+	left: 0;
+	/* background: #aaaaaa;*/
+}
+#l2{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top:55%;
+	left: 0;
+	/* background: #888888;*/
+}
+#r1{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top:10%;
+	right: 0;
+	/* background: #777777;*/
+}
+#r2{
+	position: absolute;
+	width: 30%;
+	height: 45%;
+	top:55%;
+	right:0;
+	/* background: #888888;*/
+}
+.num{
+	width: 20%;
+	margin: 10px;
+	float:left;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	color:gold;
+	font-size:20px;
+}
+.txt{
+	width:20%;
+	margin: 10px;
+	float:inline-start;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	color:sandybrown;
+	font-size:15px;
+}
